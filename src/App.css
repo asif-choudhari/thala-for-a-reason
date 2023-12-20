@@ -1,0 +1,46 @@
+h1 {
+  margin: auto;
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 1em;
+  text-align: center;
+  color:black;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+
+input {
+  margin: 0px 10px;
+  height: 40px;
+  width: 450px;
+}
+
+button {
+  margin: 0px 10px;
+  height: 40px;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+}
+
+input,
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+  box-shadow: 0px 0px 3px 1px grey;
+}
+
+button:hover {
+  border-color: #242424;
+}
+
+.thala {
+  background: url(./assets/thala.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
