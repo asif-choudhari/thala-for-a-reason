@@ -90,12 +90,12 @@ export const Search = ({ isThala, setIsThala }) => {
             <button
               onClick={async () => {
                 setMessage(
-                  `http://localhost:5173/search?isShare=true&value=${ciphertext(
+                  `https://thala-for-a-reason-eight.vercel.app//search?isShare=true&value=${ciphertext(
                     searchInput
                   )}`
                 );
                 console.log(
-                  `http://localhost:5173/search?isShare=true&value=${ciphertext(
+                  `https://thala-for-a-reason-eight.vercel.app//search?isShare=true&value=${ciphertext(
                     searchInput
                   )}`
                 );
